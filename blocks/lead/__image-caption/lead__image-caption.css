@@ -1,4 +1,5 @@
 .lead__image-caption {
+    -ms-flex-item-align: start;
     align-self: flex-start;
     font-size: 10px;
     line-height: 12px;
