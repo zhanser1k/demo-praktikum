@@ -1,0 +1,14 @@
+@import './__title/intro-content-info__title.css';
+@import './__desc/intro-content-info__desc.css';
+
+.intro-content-info {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+    .intro-content-info {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

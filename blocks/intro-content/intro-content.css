@@ -1,0 +1,20 @@
+@import './__text/intro-content__text.css';
+
+.intro-content {
+    width: 685px;
+}
+
+@media only screen and (max-width: 768px) {
+    .intro-content {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .intro-content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
